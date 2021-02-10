@@ -1,0 +1,42 @@
+*{
+  font-size: 50px;
+}
+
+.logo{
+  background: rgb(89,229,247);
+  background: linear-gradient(90deg, rgba(89,229,247,1) 0%, rgba(0,29,228,1) 100%);
+  padding: 25px 15px;
+  box-sizing: border-box;
+}
+
+.logo-text{
+  font-size: 28px;
+  color: #fff;
+}
+
+.wrapper{
+  width: 30vw;
+  width: 1200px;
+  border: 1px solid linear-gradient(90deg, rgba(89,229,247,1) 0%, rgba(0,29,228,1) 100%);
+  background: rgb(247, 246, 246);
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(133, 132, 132, 0.68);
+  font-weight: 400;
+  font-stretch: 1;
+
+}
+
+.new-block:last-child{
+  border: none;
+}
+
+.more-text{
+  text-align: left;
+  font-size: 18px;
+  color: rgb(35, 1, 129);
+}
+
+.more-text:hover{
+  color: rgb(57, 14, 173);
+  text-decoration: underline;
+}
